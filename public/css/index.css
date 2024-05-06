@@ -1,0 +1,85 @@
+body{
+    background-color: #F4EEFF;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.input-wrap{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #DCD6F7;
+}
+
+.form-wrapper{
+    flex-grow:1;
+    padding: 10px;
+    
+}
+.context{
+    flex-grow: 1;
+    align-self: flex-end;
+    background-color: #DCD6F7;
+
+}
+.btn-custom{
+    background-color: #393E46;
+  border-color: #393E46; 
+  color: #ffffff;
+  margin-top: 30px;
+  border-radius: 5px !important;
+}
+
+.btn-custom:hover{
+    background-color: #222831;
+    border-color: #222831; 
+    color: #ffffff;
+}
+
+input{
+    margin: 5px !important;
+    padding-bottom: 5px !important;
+    border-radius: 5px !important;
+}
+
+h2{
+    margin-bottom: 20px;
+}
+
+label{
+    padding-left: 5px;
+    padding: 5px;
+}
+
+.form-background{
+    padding: 55px;
+    background-color: #DCD6F7;
+    border-radius: 15px;
+}
+
+input::placeholder {
+    font: .9rem sans-serif;
+}
+
+#room-list{
+    border: none;
+    margin: 5px;
+    padding: 6px 12px 5px 12px;
+    border-radius: 5px;
+}
+
+#default-option{
+    font-size: 1rem;
+    color: #212529;
+    font-weight: 400;
+}
+
+
+.form-control{
+    width: auto !important;
+}
